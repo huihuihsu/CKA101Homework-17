@@ -5,9 +5,13 @@ package hw2;
 public class Test4Numbers {
 	
 	public static void main(String[] args) {
-		int i = 100;
-		while (i % 4 = 0);
-		System.out.println(i);
+		
+		for(int i = 0; i <= 100; i++) {
+			if(i % 4 == 0) {
+				System.out.println(i);
+			}
+		}
+		
 	}
 
 }
