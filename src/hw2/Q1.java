@@ -31,10 +31,15 @@ public class Q1 {
 		}
 		System.out.println(sum2);
 	
+	//• 請設計一隻Java程式，輸出結果為以下：
+	//  1 4 9 16 25 36 49 64 81 100
+		
+		for(int count = 1; count <=10 ; count++) {
+			System.out.print(count * count + " ");
+		}
+		
 	}
 	
-
-
 }
 
 
