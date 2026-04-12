@@ -9,13 +9,13 @@ public class Q1 {
 	
 	public static void main(String[] args) {
 		Scanner imput = new Scanner(System.in);
-		System.out.println("請輸入三個整數");
+		System.out.println("請輸入三個整數：");
 		int side1 = imput.nextInt();
 		int side2 = imput.nextInt();
 		int side3 = imput.nextInt();
 		
 		//廣義三角形
-		boolean isTriangle = (side1 + side2 > side3) && (side1 + side3 > side3) && (side2 + side3 > side1);
+		boolean isTriangle = (side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1);
 		//正三角形
 		boolean isEquilateralTriangle = (side1 == side2) && (side2 == side3);
 		//等腰三角形
@@ -42,7 +42,7 @@ public class Q1 {
 			System.out.println("這不是三角形");
 		}
 		
-
+		imput.close();
 	}
 	
 
